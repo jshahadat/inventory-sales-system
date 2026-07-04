@@ -13,6 +13,7 @@ use yii\filters\AccessControl;
 class CategoryController extends Controller
 {
     public function behaviors()
+    // All Categorr 
     {
         return array_merge(parent::behaviors(), [
             'access' => [
