@@ -1,4 +1,5 @@
-<?php
+<!-- product  -->
+ <?php
 
 namespace app\controllers;
 
@@ -11,6 +12,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
 class ProductController extends Controller
+// product controller 
 {
     public function behaviors()
     {
