@@ -1,4 +1,5 @@
-<?php
+<!-- sdf -->
+ <?php
 
 namespace app\controllers;
 
@@ -11,6 +12,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
 class CustomerController extends Controller
+// Customer 
 {
     public function behaviors()
     {
